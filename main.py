@@ -112,6 +112,8 @@ while running:
         bullet_state = "ready"
         score += 1
         print("Score: "+str(score))
+        enemy_x = random.randint(0, 800)
+        enemy_y = random.randint(50, 150)
 
     player(player_x, player_y)
     enemy(enemy_x, enemy_y)
